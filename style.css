@@ -149,7 +149,19 @@ margin: 10px;
   @media screen and (max-width: 980px){}
   @media screen and (max-width: 768px){}
   @media screen and (max-width: 640px){
-    header {position: static}
+    .container {width:100%}
+    header {position:100%}
+    body{width:100%}
+    .heading {width:100%}
+    #nombre {width:100%}
+    nav{}
+    a{}
+    #bout{}
+    #main{}
+    #main2{}
+    img{}
+    .footer{}
+    
   }
   
 
