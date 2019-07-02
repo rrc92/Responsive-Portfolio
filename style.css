@@ -26,6 +26,8 @@ nav{
     float: right;
     width: 25%;
     margin: 5%;
+  
+  
 }
 a{text-decoration: none;
     color: #777777;
@@ -146,22 +148,84 @@ margin: 10px;
     background: #4aaaa5;
     border: 0 none;
   }
-  @media screen and (max-width: 980px){}
-  @media screen and (max-width: 768px){}
+  @media screen and (max-width: 980px){
+    .container {
+      width:100%;
+    }
+    header {
+      position:100%;
+    }
+    body{
+      width:100%;
+    }
+    .heading {
+      width:100%;
+    }
+    #nombre {
+      width:100%
+    }
+  }
+  @media screen and (max-width: 768px){
+    .container {
+      width:100%;
+    }
+    header {
+      position:100%;
+    }
+    body{
+      width:100%;
+    }
+    .heading {
+      width:100%;
+    }
+    #nombre {
+      width:100%
+    }
+  }
   @media screen and (max-width: 640px){
-    .container {width:100%}
-    header {position:100%}
-    body{width:100%}
-    .heading {width:100%}
-    #nombre {width:100%}
-    nav{}
-    a{}
-    #bout{}
-    #main{}
-    #main2{}
-    img{}
-    .footer{}
+    .container {
+      width:100%;
+    }
+    header {
+      position:100%;
+    }
+    body{
+      width:100%;
+    }
+    .heading {
+      width:100%;
+      text-align: center;
+    }
+    #nombre {
+      width:100%
+    }
     
+    
+    nav{
+      width:100%;
+      
+    }
+    a{
+      width:100%;
+    }
+    #bout{
+      width:100%;
+    }
+    #main{
+    margin-left: 10%;
+    }
+    #main2{
+      width:100%;
+    }
+    
+    .footer{
+      width:100%;
+    }
+    
+
+
+
+
   }
   
 
