@@ -151,7 +151,10 @@ margin: 10px;
   }
   @media screen and (max-width: 980px){
     .container {
-      width:100%;
+      width:80%;
+    }
+    #main{ 
+      margin-left: 18%;
     }
     header {
       position:100%;
@@ -161,9 +164,22 @@ margin: 10px;
     }
     .heading {
       width:100%;
+      margin-left: 0;
     }
     #nombre {
-      width:100%
+      width:25%;
+    }
+    .work img {
+      margin-left: 50%;
+    }
+    .work h3{
+      margin-left: 50%;
+    }
+    nav {
+    width: auto;
+    }
+    .footer {
+      width: 100%;
     }
   }
   @media screen and (max-width: 768px){
@@ -178,7 +194,7 @@ margin: 10px;
       position:100%;
     }
     body{
-      width:80%;
+      widows: 100%;
     }
     .heading {
       width:100%;
@@ -197,12 +213,13 @@ margin: 10px;
     width: auto;
     }
     .footer {
-      width: 80%;
+      width: 100%;
     }
   }
   @media screen and (max-width: 640px){
     .container {
       width:100%;
+
     }
     header {
       position:100%;
@@ -239,6 +256,9 @@ margin: 10px;
     }
     #main2{
       width:100%;
+    }
+    .work{
+      margin: 0%;
     }
     
     .footer{
